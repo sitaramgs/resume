@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi-Tabbed Resume</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>My Resume</h1>
+        <nav>
+            <button onclick="loadContent('experience.html')">Experience</button>
+            <button onclick="loadContent('education.html')">Education</button>
+            <button onclick="loadContent('skills.html')">Skills</button>
+            <button onclick="loadContent('projects.html')">Projects</button>
+        </nav>
+        <div id="content">Loading...</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
